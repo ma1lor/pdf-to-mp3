@@ -3,7 +3,7 @@ import pdfplumber
 from gtts import gTTS
 
 
-def pdftomp3(file_path='tet.pdf', language = 'en'):
+def pdftomp3(file_path='test.pdf', language = 'en'):
     if Path(file_path).is_file() and Path(file_path).suffix == '.pdf':
         # return 'File exists'
         print(f'[+] proccesing')
