@@ -16,7 +16,7 @@ def pdftomp3(file_path='test.pdf', language = 'en'):
         my_audio.save(f'{file_name}.mp3')
         with open('text.txt', 'w') as file:
             file.write(text)
-        return f'[+] {file_name}.mp3 saved successfully! \n ---Have a good day!'
+        return f'[+] {file_name}.mp3 saved successfully!'
 
     else:
         return 'File does not exist'
@@ -29,7 +29,7 @@ def pdftomp3(file_path='test.pdf', language = 'en'):
 
 def main():
     print(1)
-    print(pdftomp3(file_path='files\Robert_Louis_Stevenson_-_Treasure_Island.pdf'))
+    print(pdftomp3(file_path='for_project.pdf'))
 
 
 
